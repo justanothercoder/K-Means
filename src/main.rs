@@ -117,8 +117,6 @@ fn main() {
         });
     }
 
-//    means = vec![vector{ data: vec![1.0] }, vector{ data: vec![2.0] }];
-
     let mut clusters = Vec::<usize>::new();
     clusters.resize(m, 0);
 

@@ -146,5 +146,14 @@ fn main() {
         prev = cur;
     }
 
-    print!("Accomplished");
+    println!("Accomplished");
+
+    for i in range(0, k) {
+        println!("Cluster number {}", i);
+        for j in range(0, m) {
+            if clusters[j] == i {
+                println!("{:?}", examples[j]);
+            }
+        }
+    }
 }
